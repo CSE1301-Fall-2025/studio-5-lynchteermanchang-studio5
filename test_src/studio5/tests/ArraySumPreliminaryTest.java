@@ -15,7 +15,7 @@ import studio5.Methods;
 public class ArraySumPreliminaryTest {
 	@Test
 	public void testArrayLength0() {
-		int[] values = {};
+		int[] values = new int[0];
 		int actual = Methods.arraySum(values);
 		int expected = 0;
 		assertEquals(expected, actual);
